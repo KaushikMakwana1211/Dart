@@ -1,0 +1,12 @@
+name: TestApp
+version: 0.0.1
+description: A simple console application.
+
+environment:
+  sdk: '^3.6.0'  # Specifies the Dart SDK version
+
+dependencies:
+  xml: ^6.5.0  # Use the latest version from pub.dev
+  http: ^1.2.2  # Use the latest version available on pub.dev
+  test: ^1.25.14
+  html: ^0.15.5
