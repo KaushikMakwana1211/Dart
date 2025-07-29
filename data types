@@ -1,0 +1,25 @@
+What is a Data Type?
+A data type defines the kind of value a variable can store. It ensures that variables hold only valid values and helps the compiler understand how to handle the data.
+
+What are Data Types Used For?
+Memory Management – Helps allocate the right amount of memory.
+Type Safety – Prevents errors by ensuring variables store correct types of values.
+Code Readability – Makes the code easier to understand by specifying what kind of data is being used.
+Performance Optimization – Optimizes how data is processed and stored.
+
+1. Numbers (int, double)
+Used for storing numeric values.
+
+int → Whole numbers (e.g., 10, -5, 1000)
+double → Decimal numbers (e.g., 3.14, -7.5, 0.99)
+
+2. Strings (String)
+Used to store text (characters).
+
+3. Booleans (bool)
+Used to store true or false values.
+
+Key Points
+Dart supports type inference, so var can automatically detect the type.
+Use final and const for immutable values.
+dynamic allows flexibility but should be used cautiously.

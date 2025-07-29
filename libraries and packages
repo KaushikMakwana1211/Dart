@@ -1,0 +1,44 @@
+1. What is a Library in Dart?
+A library is a collection of functions, classes, and variables that can be imported and used in other files.
+Every Dart file (.dart) is automatically a library.
+
+Why Use Libraries?
+✅ Code Organization – Keeps code modular and manageable.
+✅ Reusability – Functions and classes can be used in multiple files.
+✅ Encapsulation – Hides implementation details using part, private members (_name), etc.
+
+How to Create and Use a Library?
+📌 Step 1: Create a Library File (math_library.dart).
+📌 Step 2: Import and Use the Library (main.dart).
+
+2. What is a Package in Dart?
+A package is a collection of multiple libraries that can be shared and reused across projects.
+Packages are typically hosted on pub.dev and can be installed in Dart/Flutter projects.
+
+Why Use Packages?
+✅ Pre-built Solutions – Provides ready-made libraries for networking, UI, databases, etc.
+✅ Code Reusability – Packages can be used across multiple projects.
+✅ Community Support – Thousands of open-source Dart/Flutter packages are available.
+
+How to Use a Package?
+📌 Step 1: Add a Package to pubspec.yaml.
+For example, to use the http package (for API calls)
+📌 Step 2: Import and Use the Package.
+
+Popular Dart/Flutter Packages
+Package	Purpose
+http	Makes HTTP requests
+provider	State management in Flutter
+shared_preferences	Stores local key-value data
+path_provider	Access device file paths
+firebase_core	Connects Firebase to Flutter
+
+3. Built-in Libraries in Dart
+Dart provides several built-in libraries:
+
+Library	Purpose
+dart:core	Default library (strings, lists, numbers, maps)
+dart:math	Mathematical functions (sqrt, pow, random)
+dart:io	File handling, networking (works in Dart, not Flutter)
+dart:convert	JSON and UTF-8 encoding/decoding
+dart:async	Asynchronous programming (Futures, Streams)

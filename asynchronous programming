@@ -1,0 +1,28 @@
+What is Asynchronous Programming in Dart?
+Asynchronous programming allows a program to run tasks without blocking the execution of other tasks. This means the program can perform multiple operations concurrently, improving efficiency.
+
+In Dart, async programming is achieved using:
+✅ Future (for single async operations)
+✅ async & await (to handle Futures easily)
+✅ Stream (for handling multiple asynchronous events)
+
+Why Use Asynchronous Programming?
+Prevents UI Freezing – Keeps apps responsive while waiting for network requests, file reading, or database queries.
+Handles Long-Running Tasks Efficiently – Tasks like API calls, file I/O, and database operations run in the background.
+Improves Performance – Enables concurrent execution, speeding up apps.
+
+How Asynchronous Programming Works in Dart
+1. Using Future (Single Asynchronous Operation)
+A Future represents a delayed computation that will return a value in the future.
+🔹 The program continues execution without waiting for the delay.
+
+
+2. Using async & await (Easier Future Handling)
+Instead of using .then(), async and await make asynchronous code look more like synchronous code.
+🔹 await pauses execution until fetchData() completes.
+🔹 No need for callbacks, making the code cleaner.
+
+3. Using Stream (Handling Multiple Async Events)
+A Stream is used for handling continuous data like user input, sensor data, or API events.
+🔹 The yield keyword emits values over time.
+🔹 await for listens to the Stream asynchronously.

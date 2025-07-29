@@ -1,0 +1,36 @@
+What is Error Handling in Dart?
+Error handling in Dart is the process of managing exceptions and errors that occur during program execution. It helps prevent application crashes and allows developers to handle unexpected issues gracefully.
+
+Why Use Error Handling?
+✅ Prevents program crashes.
+✅ Provides a way to handle runtime errors properly.
+✅ Improves application reliability and user experience.
+✅ Helps debug and log errors for better maintenance.
+
+Types of Errors in Dart
+Compile-time Errors – Syntax or type-related issues (e.g., missing semicolons, type mismatches).
+Runtime Errors (Exceptions) – Errors that occur while the program is running (e.g., division by zero, accessing a null variable).
+Common Exceptions in Dart
+Exception	When It Occurs
+FormatException	Invalid string format (e.g., parsing "abc" to an integer).
+IntegerDivisionByZeroException	Division by zero.
+NoSuchMethodError	Calling a method on null.
+RangeError	Accessing an index out of range in a list.
+TypeError	Assigning a value of the wrong type.
+TimeoutException	Operation taking too long.
+
+1. Using try and catch
+🔹 The try block contains the code that might throw an exception.
+🔹 The catch block handles the exception and prevents the program from crashing.
+
+2. Using on for Specific Exceptions
+If you want to handle a specific type of exception, use on.
+
+3. Using catch with Exception Details
+You can get more details about the exception using catch (e, s), where e is the exception and s is the stack trace.
+
+4. Using finally (Always Executes)
+The finally block runs whether an exception occurs or not.
+
+5. Throwing Custom Exceptions
+You can define and throw custom exceptions in Dart.

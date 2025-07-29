@@ -1,0 +1,54 @@
+Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects. Objects represent real-world entities and contain properties (data) and methods (functions) to manipulate that data.
+
+What is OOPs Used For?
+Code Reusability – Write code once and use it multiple times.
+Encapsulation – Protect data by restricting direct access.
+Abstraction – Hide complex details and show only the necessary features.
+Polymorphism – Use a single interface to represent multiple types.
+Inheritance – Reduce redundancy by sharing properties and behaviors.
+
+OOP Concepts in Dart
+1. Class & Object
+A class is a blueprint for creating objects.
+An object is an instance of a class.
+
+2. Constructor
+A constructor initializes an object when it is created.
+
+Types of Constructors in Dart
+a) Default Constructor (No-argument constructor)
+
+b) Parameterized Constructor (Accepts arguments)
+
+c) Named Constructor (For multiple ways to initialize an object)
+
+3. Inheritance (Reusability of Code)
+A child class (subclass) can inherit properties and methods from a parent class (superclass).
+
+Types of Inheritance in Dart
+a) Single Inheritance (One Parent, One Child)
+A single child class inherits from a single parent class.
+
+b) Multilevel Inheritance (Chain of Inheritance)
+A child class inherits from another child class.
+
+c) Hierarchical Inheritance (One Parent, Multiple Children)
+Multiple child classes inherit from a single parent class.
+
+d) Multiple Inheritance (Not Supported, But Achievable Using mixin)
+Dart does not support multiple inheritance, but you can use mixin to achieve similar functionality.
+
+4. Polymorphism (Multiple Forms of a Method)
+Methods with the same name behave differently based on the object.
+
+5. Encapsulation (Data Hiding with Private Variables)
+Encapsulation protects data using private variables (_variableName).
+
+6. Abstraction (Hiding Implementation Details)
+Abstract classes define a common structure but must be extended.
+
+7. Mixin
+A mixin in Dart is a way to reuse code across multiple classes without using inheritance. It allows classes to share behavior without extending a common parent class.
+
+8. Interface
+An interface in Dart is a contract that a class can follow by implementing its methods. Unlike some other languages, Dart does not have a separate interface keyword—instead, every class can act as an interface when another class uses implements.

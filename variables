@@ -1,0 +1,24 @@
+What is a Variable?
+A variable is a named storage location in memory that holds a value. It allows you to store, modify, and retrieve data during the execution of a program.
+
+What are Variables Used For?
+Variables are used to:
+
+Store Data – Hold different types of data like numbers, text, and objects.
+Reuse Values – Assign a value once and use it multiple times in a program.
+Improve Readability – Give meaningful names to values instead of using raw data.
+Manipulate Data – Perform calculations and process information dynamically.
+
+Variables in Dart
+In Dart, you declare a variable using var, final, const, or specific data types like int, double, String, etc.
+
+Key Points:
+var – Type is inferred automatically.
+int, double, String, bool – Explicitly define the type.
+final – Can be assigned only once but determined at runtime.
+const – A compile-time constant (fixed at compile-time).
+
+var - jo tame pehla j define karyo hoy to e j data type chale ane ane modify kari sakay che ane jo tame pachi define karyo hoy to koi pan data type chale
+coast - aa data type ne pehle thi j define karvo pade che ane ane modify kari sakato nathi
+final - jo tame pehla j define karyo hoy to e j data type chale ane ane modify kari sakato nathi
+dynamic - koi pan data type chale ane game tyre modefy kari sakay che 

@@ -1,0 +1,30 @@
+What is a Function?
+A function in Dart is a reusable block of code that performs a specific task. It helps organize code, avoid repetition, and improve readability.
+
+What are Functions Used For?
+Code Reusability – Write once, use multiple times.
+Modularity – Break complex code into smaller, manageable parts.
+Readability – Makes the code cleaner and easier to understand.
+Efficiency – Reduces redundancy and improves maintainability.
+
+
+Types of Functions in Dart
+1. Basic Function (Without Parameters & Return Value)
+
+2. Function with Parameters
+Used to pass values to a function.
+
+3. Function with Return Value
+Returns a value after execution.
+
+4. Arrow Function (Short Syntax)
+For simple functions, use => instead of { return ... }.
+
+5. Named Parameters (Optional & Default Values)
+Use {} to define named parameters.
+
+6. Anonymous Function (Lambda Expression)
+A function without a name, used for short operations.
+
+7. Higher-Order Function (Passing Function as Parameter)
+Functions can accept other functions as arguments.

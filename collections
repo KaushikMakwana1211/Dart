@@ -1,0 +1,78 @@
+What is Collections in Dart?
+A collection in Dart is a data structure used to store and manage multiple values efficiently. Dart provides Lists, Sets, and Maps as the main collection types.
+
+Why Use Collections?
+✅ Efficient data management – Store and manipulate multiple values.
+✅ Improve performance – Optimize memory usage and retrieval speed.
+✅ Organized data structure – Handle structured data efficiently.
+
+Types of Collections in Dart
+1. List (Ordered Collection)
+A List is an ordered collection of elements, similar to arrays in other languages.
+Supports duplicate values.
+
+List Operations
+Operation	Method
+Add element	add(), addAll()
+Insert at index	insert(), insertAll()
+Remove element	remove(), removeAt(), removeLast(), clear()
+Search	contains(), indexOf(), lastIndexOf()
+Sorting	sort(), reversed.toList()
+Iteration	for loop, forEach(), map()
+Sublist	sublist(), fillRange()
+
+
+2. Set (Unique Collection)
+A Set is an unordered collection that does not allow duplicate values.
+
+ Set operations in Dart:
+
+Operation	Description	Example
+add(element)	Adds an element to the set	mySet.add(10);
+addAll(iterable)	Adds multiple elements	mySet.addAll([20, 30, 40]);
+remove(element)	Removes a specific element	mySet.remove(20);
+clear()	Removes all elements	mySet.clear();
+contains(element)	Checks if an element exists	mySet.contains(10);
+isEmpty	Checks if the set is empty	mySet.isEmpty;
+isNotEmpty	Checks if the set is not empty	mySet.isNotEmpty;
+length	Returns the number of elements in the set	mySet.length;
+union(otherSet)	Combines two sets (removes duplicates)	setA.union(setB);
+intersection(otherSet)	Returns common elements between two sets	setA.intersection(setB);
+difference(otherSet)	Returns elements in the first set but not in the second	setA.difference(setB);
+toList()	Converts a set to a list	List<int> myList = mySet.toList();
+forEach((element) {})	Iterates over each element	mySet.forEach((e) => print(e));
+for (var e in set)	Iterates using a for-in loop	for (var e in mySet) { print(e); }
+
+3. Map (Key-Value Pair Collection)
+A Map stores data as key-value pairs.
+Keys must be unique, but values can be duplicate.
+
+Map operations in Dart:
+
+Operation	Description	Example
+Adding Elements		
+map[key] = value	Adds a key-value pair	myMap['name'] = 'Alice';
+putIfAbsent(key, () => value)	Adds a key-value pair only if the key is absent	myMap.putIfAbsent('age', () => 25);
+Accessing Elements		
+map[key]	Retrieves the value for a key	print(myMap['name']);
+map.keys	Returns all keys as an iterable	print(myMap.keys);
+map.values	Returns all values as an iterable	print(myMap.values);
+map.containsKey(key)	Checks if a key exists	myMap.containsKey('name');
+map.containsValue(value)	Checks if a value exists	myMap.containsValue('Alice');
+Updating Elements		
+map.update(key, (old) => newValue)	Updates the value for an existing key	myMap.update('age', (old) => old + 1);
+map.update(key, (old) => newValue, ifAbsent: () => value)	Updates or inserts if key is absent	myMap.update('age', (old) => old + 1, ifAbsent: () => 18);
+Removing Elements		
+map.remove(key)	Removes a key-value pair	myMap.remove('name');
+map.clear()	Removes all key-value pairs	myMap.clear();
+Checking Map Properties		
+map.isEmpty	Checks if the map is empty	myMap.isEmpty;
+map.isNotEmpty	Checks if the map is not empty	myMap.isNotEmpty;
+map.length	Returns the number of key-value pairs	print(myMap.length);
+Iterating Over a Map		
+map.forEach((key, value) => action)	Iterates over key-value pairs	myMap.forEach((k, v) => print('$k: $v'));
+for (var entry in map.entries)	Iterates using entries (key-value pairs)	for (var e in myMap.entries) { print('${e.key}: ${e.value}'); }
+Transforming a Map		
+map.map((key, value) => MapEntry(newKey, newValue))	Creates a new modified map	var newMap = myMap.map((k, v) => MapEntry(k, '$v!'));
+map.keys.toList()	Converts keys to a list	List keys = myMap.keys.toList();
+map.values.toList()	Converts values to a list	List values = myMap.values.toList();

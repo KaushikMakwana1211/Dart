@@ -1,0 +1,60 @@
+What is an Operator?
+An operator in Dart is a special symbol used to perform operations on variables and values. Operators allow you to manipulate data, perform calculations, and make logical decisions in your program.
+
+What are Operators Used For?
+Arithmetic Operations – Perform mathematical calculations.
+Comparison – Compare values to make decisions.
+Logical Operations – Combine multiple conditions.
+Assignment – Assign values to variables.
+Bitwise Operations – Manipulate binary representations of numbers.
+
+Types of Operators in Dart
+1. Arithmetic Operators (Used for mathematical operations)
+Operator	Description	Example
++	Addition	5 + 3 → 8
+-	Subtraction	10 - 4 → 6
+*	Multiplication	2 * 3 → 6
+/	Division (returns double)	10 / 2 → 5.0
+~/	Integer Division	10 ~/ 3 → 3
+%	Modulus (remainder)	10 % 3 → 1
+
+2. Relational (Comparison) Operators (Used to compare values)
+Operator	Description	Example
+==	Equal to	5 == 5 → true
+!=	Not equal to	5 != 3 → true
+>	Greater than	10 > 5 → true
+<	Less than	3 < 5 → true
+>=	Greater than or equal to	5 >= 5 → true
+<=	Less than or equal to	4 <= 5 → true
+
+3. Logical Operators (Used for Boolean logic)
+Operator	Description	Example
+&&	Logical AND	(true && false) → false
+`		`
+!	Logical NOT	!(true) → false
+
+4. Assignment Operators (Used to assign values to variables)
+Operator	Description	Example
+=	Assign	a = 10
++=	Add and assign	a += 5 (same as a = a + 5)
+-=	Subtract and assign	a -= 2 (same as a = a - 2)
+*=	Multiply and assign	a *= 3 (same as a = a * 3)
+/=	Divide and assign	a /= 2 (same as a = a / 2)
+~/=	Integer divide and assign	a ~/= 3
+
+5. Bitwise Operators (Used for bitwise operations)
+Operator	Description	Example
+&	Bitwise AND	5 & 3 → 1
+`	`	Bitwise OR
+^	Bitwise XOR	5 ^ 3 → 6
+~	Bitwise Complement	~5 → -6
+<<	Left shift	5 << 1 → 10
+>>	Right shift	5 >> 1 → 2
+
+6. Conditional (Ternary) Operator (Short form of if-else)
+
+7. Null-aware Operators (Handle null values safely)
+Operator	Description	Example
+??	If null, use right-hand value	a ?? 10
+??=	Assign value only if null	a ??= 5
+?.	Safe access to properties	obj?.method()

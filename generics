@@ -1,0 +1,9 @@
+what is Generics? and What isGenerics used for? in dart
+ChatGPT said:
+What is Generics in Dart?
+Generics in Dart allow you to create flexible, reusable, and type-safe classes, methods, and functions by using placeholder types instead of specific types like int, String, etc.
+
+🔹 Why Use Generics?
+Type Safety – Prevents runtime type errors.
+Code Reusability – Write a single class/method that works for multiple types.
+Performance – Avoids unnecessary type conversions and checks.
